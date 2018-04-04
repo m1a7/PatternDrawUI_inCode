@@ -494,5 +494,5 @@ Use this approach every time you create a new controller.
 - Make code snippet for  UITableViewController
 - Write wiki
 - May be write a protocol for viewcontroller
-- ❌ Draw diagramm (in proccess)
+-  ☑️ Draw diagramm (in done)
 
