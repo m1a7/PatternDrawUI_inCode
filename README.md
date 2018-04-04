@@ -14,6 +14,14 @@ The concept of the order of calling methods that draw subviews
 - [Things to do in future releases](#things-to-do-in-future-releases)
 
 
+<br><br>
+[Watch Scheme in full Size](https://raw.githubusercontent.com/m1a7/PatternDrawUI_inCode/master/Screenshot/PatternDrawUI_inCodeDiagram.png)
+![Scheme](https://raw.githubusercontent.com/m1a7/PatternDrawUI_inCode/master/Screenshot/PatternDrawUI_inCodeDiagram.png) 
+
+---
+<br>
+<br>
+
 ## Philosophy of life viewController
  
  1. Remove everything from the screen. Set all properties to nil.
