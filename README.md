@@ -2,7 +2,7 @@
 The concept of the order of calling methods that draw subviews
 
 
-![iPhone Demo](https://raw.githubusercontent.com/m1a7/PatternDrawUI_inCode/blob/master/Screenshot/demo.gif) 
+![iPhone Demo](https://raw.githubusercontent.com/m1a7/PatternDrawUI_inCode/master/Screenshot/demo.gif) 
 
 
 # Table of Contents
@@ -11,7 +11,7 @@ The concept of the order of calling methods that draw subviews
 - [The order the methods are called after changing orientation](#The-order-the-methods-are-called-after-changing-orientation)
 - [Structure the location of the methods in the file](#structure-the-location-of-the-methods-in-the-file)
 - [Code snippet](#code-snippet)
-- [](#)
+- [Things to do in future releases](#things-to-do-in-future-releases)
 
 
 ## Philosophy of life viewController
