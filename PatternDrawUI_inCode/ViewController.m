@@ -239,8 +239,7 @@
  6. - (void) addSubviewsOnSuperView;                            - Добавляем все subviews на self.view
  */
 
-- (void) setAllSubviewInNilandRemoveFromSuperView
-{
+- (void) setAllSubviewInNilandRemoveFromSuperView{
     NSLog(@"%s", __PRETTY_FUNCTION__);
     // Here delete all properties.
     for (UIView* subview in self.view.subviews){
@@ -250,8 +249,7 @@
     self.rectView   = nil;
 }
 
-- (void) initSubviewsByModel:(TestModel*) model
-{
+- (void) initSubviewsByModel:(TestModel*) model {
     NSLog(@"%s", __PRETTY_FUNCTION__);
     // Here we initialize all properties
     if (self.view){
@@ -260,8 +258,7 @@
     }
 }
 
-- (void) resizeSubviewsByModel:(TestModel*) model
-{
+- (void) resizeSubviewsByModel:(TestModel*) model {
     NSLog(@"%s", __PRETTY_FUNCTION__);
     // Here we start the mechanism of recalculation of the subview's sizes
     if (self.view){
@@ -270,8 +267,7 @@
     }
 }
 
-- (void) addSubviewsOnSuperView
-{
+- (void) addSubviewsOnSuperView {
     NSLog(@"%s", __PRETTY_FUNCTION__);
     // Here we add subviews to the screen
     if (self.view){
@@ -313,7 +309,7 @@
 
 - (void) setupUI_WelcomeLbl:(UILabel*) label
 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    //NSLog(@"%s", __PRETTY_FUNCTION__);
 
     UIFont * customFont = [ViewController font_WelcomeLbl];
     label.font = customFont;
@@ -326,7 +322,7 @@
 
 - (void) setupUI_RectView:(UIView*) rectView
 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    //NSLog(@"%s", __PRETTY_FUNCTION__);
 
     rectView.backgroundColor = [UIColor blueColor];
 }
@@ -370,7 +366,7 @@
 
 - (CGRect) cgrectFor_WelcomeLblwithModel:(TestModel*) model withParentFrame:(CGRect) frame{
     
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    //NSLog(@"%s", __PRETTY_FUNCTION__);
 
     if (CGRectIsEmpty(frame) || CGRectIsNull(frame)){
         frame = self.view.frame;
@@ -402,7 +398,7 @@
 
 
 - (CGRect) cgrectFor_RectViewWithModel:(TestModel*) model withParentFrame:(CGRect) frame{
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    //NSLog(@"%s", __PRETTY_FUNCTION__);
 
     float height = 0;
     float width = 0;
@@ -437,7 +433,7 @@
 
 
 +(UIFont*) font_WelcomeLbl{
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    //NSLog(@"%s", __PRETTY_FUNCTION__);
 
     float size = (IDIOM == IPAD) ? 30.f  : 20.f;
     return [UIFont fontWithName:@"Arial" size:size];
@@ -446,7 +442,7 @@
 #pragma mark - Helpers
 
 - (UIColor *)colorFromHexString:(NSString *)hexString {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    //NSLog(@"%s", __PRETTY_FUNCTION__);
 
     unsigned rgbValue = 0;
     NSScanner *scanner = [NSScanner scannerWithString:hexString];
